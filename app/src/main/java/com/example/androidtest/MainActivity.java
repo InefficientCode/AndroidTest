@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        MobileCenter.start(getApplication(), "{Your App Secret}", Analytics.class, Crashes.class);
+        MobileCenter.start(getApplication(), "23410f55-e659-4200-a891-3a1ff7f2b7c5", Analytics.class, Crashes.class);
 
         ((Button)findViewById(R.id.button)).setOnClickListener(new View.OnClickListener() {
             @Override
