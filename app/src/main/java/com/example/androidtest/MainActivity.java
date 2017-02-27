@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         ((Button)findViewById(R.id.button)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Analytics.trackEvent("Analytics Event Button Clicked!");
+                Analytics.trackEvent("Analytics Event Button Clicked!!!");
             }
         });
 
